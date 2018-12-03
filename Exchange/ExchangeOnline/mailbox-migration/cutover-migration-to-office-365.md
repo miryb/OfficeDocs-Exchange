@@ -24,6 +24,15 @@ description: "As part of an Office 365 deployment, you can migrate the contents 
 As part of an Office 365 deployment, you can migrate the contents of user mailboxes from a source email system to Office 365. When you do this all at one time, it's called a cutover migration. Choosing a cutover migration is suggested when:
   
 - Your current on-premises Exchange organization is Microsoft Exchange Server 2003 or later.
+    > [!NOTE]
+    > If your current on-premises Exchange organization is Exchange 2010 or later we strongly recommend you use Express Migration (https://docs.microsoft.com/en-us/exchange/mailbox-migration/use-minimal-hybrid-to-quickly-migrate)  
+    
+The following are the benefits of performing an Express Migration over a more traditional cutover migration:
+* Usernames and passwords will sync from on-premises
+* Users will not have to recreate Outlook profiles
+* Mail flow will continue to work between users before, during, and after the migration
+* There is essentially no down time for users during the migration <br />
+Reference: https://blogs.technet.microsoft.com/exchange/2016/11/28/new-exchange-online-migration-options/
     
 - Your on-premises Exchange organization has fewer than 2,000 mailboxes.
     
