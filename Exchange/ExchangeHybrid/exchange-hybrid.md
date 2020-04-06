@@ -24,6 +24,8 @@ description: "Summary: What you need to know to plan an Exchange hybrid deployme
  **Summary**: What you need to know to plan an Exchange hybrid deployment.
 
 A hybrid deployment offers organizations the ability to extend the feature-rich experience and administrative control they have with their existing on-premises Microsoft Exchange organization to the cloud. A hybrid deployment provides the seamless look and feel of a single Exchange organization between an on-premises Exchange organization and Exchange Online in Microsoft Office 365. In addition, a hybrid deployment can serve as an intermediate step to moving completely to an Exchange Online organization.
+Exchange 2010, Exchange 2013 and later hybrid deployments are supported for organizations with one or multiple Exchange on-premises organizations and a single Office 365 tenant.
+
 
 ## Exchange hybrid deployment features
 
