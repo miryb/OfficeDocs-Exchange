@@ -25,9 +25,9 @@ description: "Summary: What your Exchange environment needs before you can set u
 
 Before you create and configure a hybrid deployment using the Hybrid Configuration wizard, your existing on-premises Exchange organization needs to meet certain requirements. If you don't meet these requirements, you won't be able to complete the steps within the Hybrid Configuration wizard and you won't be able to configure a hybrid deployment between your on-premises Exchange organization and Exchange Online.
 
-## Prerequisites for hybrid deployment
-
-The following prerequisites are required for configuring a hybrid deployment:
+## Prerequisites for Classic hybrid deployment
+Note that there are 2 flavors of Hybrid Topologies: Classic and Modern. See https://docs.microsoft.com/en-us/exchange/hybrid-deployment/hybrid-agent  for Modern Hybrid prerequisites.
+The following prerequisites are required for configuring a Classic hybrid deployment:
 
 - **On-premises Exchange organization**:  The version of Exchange you have installed in your on-premises organization determines the hybrid deployment version you can install. You should typically configure the newest hybrid deployment version that's supported in your organization as described in the following table:
 
